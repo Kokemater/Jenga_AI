@@ -65,7 +65,7 @@ if game_mode ==3
     computer_level_2 =6;
 end
 
-depth = inf;
+depth = 1;
 
 % -----------------------------------
 % Initialize variables

@@ -41,7 +41,6 @@ if (randomness_of_the_mass ~= 0 || randomness_of_the_position > 2)
     elseif height > 10
         depth =2;
     end
-    depth = inf;
 
     [deleted_piece, placed_piece, winner] = clever_minimax(Tower,depth,true);
     if winner == 0
